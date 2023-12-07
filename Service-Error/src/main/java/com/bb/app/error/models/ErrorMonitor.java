@@ -25,14 +25,17 @@ public class ErrorMonitor {
 	@GeneratedValue(generator = "uuid", strategy = GenerationType.AUTO)
 	@GenericGenerator(name = "uuid", strategy = "org.hibernate.id.UUIDGenerator")
 	@Column(length = 36, name = "ID_ERROR")
-	private String IdError;
+	private String idError;
 	
 	
 	@Column(name="API_NAME")
-	private String ApiName;
+	private String apiName;
+
+	@Column(name="API_DESCRIPTION")
+	private String apiDescription;
 	
-	@Column(name= "ERROR")
-	private String error;
+	@Column(name= "ERROR_CODE")
+	private String errorCode;
 	
 	@Column(name= "ERROR_DETAIL")
 	private String errorDetail;
