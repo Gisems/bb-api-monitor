@@ -18,7 +18,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name="ERRORS")
-public class Error {
+public class ErrorMonitor {
 
 
 	@Id
