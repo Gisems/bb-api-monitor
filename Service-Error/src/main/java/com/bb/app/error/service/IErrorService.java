@@ -1,9 +1,16 @@
 package com.bb.app.error.service;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import java.util.Optional;
 
-import com.bb.app.error.models.Error;
+import com.bb.app.error.models.ErrorMonitor;
 
-public interface IErrorService extends JpaRepository<Error, String>{
+public interface IErrorService {
+	
+	ErrorMonitor registrar(ErrorMonitor e);
+	ErrorMonitor modificar(ErrorMonitor e);
+	ErrorMonitor leerPorId(String Id);
+	Optional<ErrorMonitor> listar();
+	void eliminar(String Id);
+	
 
 }
