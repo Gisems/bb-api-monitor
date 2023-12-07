@@ -4,12 +4,12 @@ Como ejemplo construimos un servicio financiero y vamos a monitorear la salud de
 
 Para obtener más detalles sobre el proyecto, consulte la [wiki](https://github.com/Gisems/bb-api-monitor/wiki).
 
-##Base de datos
+## Base de datos
 La base de datos seleccionada para este proyecto será PostgreSQL.
 Para ver especificaciones de la misma, consultar [wiki](https://github.com/Gisems/bb-api-monitor/wiki/Base-de-datos)
 
 
-##Para levantar proyecto
+## Para levantar proyecto
 - comando de instalación: maven install
 - para levantar el proyecto: run as Spring boot app
 
